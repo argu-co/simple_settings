@@ -9,8 +9,8 @@ Install the migration adding the 'settings' table to your database:
 
 Restart your server and get or set values:
 ```ruby
-Setting.get :preffered_flavour
-Setting.set :preffered_flavour, "Nacho cheese"
+Setting.get :preferred_flavour
+Setting.set :preferred_flavour, "Nacho cheese"
 ```
 
 Note: If you try to get a setting which doesn't exists yet, it will be created on the fly as being an empty string.
