@@ -1,5 +1,5 @@
 # Simple_settings
- A simple authoring tool to keep track of changes to a model.
+ A simple way to set key value pairs in the database.
 
 ## Usage
 Install the migration adding the 'settings' table to your database:
